@@ -11,6 +11,8 @@
 	background-position: center;
 }   
 
+
+
 #menu
 {
 	position: fixed;
@@ -20,6 +22,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	z-index: 1;
 }
 
 #menu ul li{
@@ -31,6 +34,7 @@
 #menu ul li a{
 	text-decoration: none;
 	color: #fff;
+	background-color: #000000;
 	text-transform: uppercase;
 }
 #menu ul li::after{
@@ -42,23 +46,24 @@
 	left: 0;
 	bottom: -5px;
 }
+.section{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	background: black;
+}
 
 #about{
-	width: 100%;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	text-align: center;
-	color: #fff;
 }
 
 #photos{
-	width: 100%;
+	
 	position: absolute;
 	top: 100%;
 	transform: translateY(-10%);
-	text-align: center;
-	color: #fff;
 	background-color: black;
 	
 }
@@ -83,24 +88,62 @@
 	width: 100%;
 	position: relative;
 	top: 1500px;
-	transform: translateY(-10%);
+	transform: translateY(-30%);
 	text-align: center;
 	color: #fff;
 	background-color: black;
 }
 
 #like{
-	width: 100%;
 	position: relative;
 	top: 1450px;
-	transform: translateY(-10%);
-	text-align: center;
-	color: #fff;
+	transform: translateY(-35%);
 	background-color: black;
 }
 
-.fb-like{
-	background: #fff;
+
+#qrcoder{
+	position: relative;
+	top: 1450px;
+	transform: translateY(-42%);
+	background-color: black;
 }
 
+#spa{
+	position: relative;
+	top: 1800px;
+	transform: translateY(-62%);
+	background-color: black;
+}
+
+#contact{
+	position: relative;
+	top: 1250px;
+	transform: translateY(-42%);
+	background-color: black;
+}
+
+#webs {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #webs td, #webs th {
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+  }
+  
+  #webs tr:nth-child(even){background-color: #000000;}
+  
+  #webs tr:hover {background-color: #fffb00;
+	color: rgb(0, 0, 0);}
+  
+  #webs th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #fffb00;
+	color: rgb(0, 0, 0);
+  }
 
